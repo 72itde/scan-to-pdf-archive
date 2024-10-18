@@ -3,7 +3,7 @@
 # configuration
 
 output_directory="$HOME/Nextcloud/Scan"
-device_name="epsonds:libusb:004:009"                                     # find it via scanimage -L
+device_name="epsonds:libusb:004:010"                                     # find it via scanimage -L
 
 
 # variables
@@ -21,5 +21,5 @@ fi
 
 # run the scan tool(s)
 
-scanimage --device-name="${device_name}" --progress --batch="${output_directory}/scan_${mydatetime}_page_%d.pdf" --batch-print --source="ADF Duplex" --mode="Color" --depth="8" --resolution="600" --format=pdf -x 210 -y 297
+scanimage --device-name="${device_name}" --progress --batch="${output_directory}/scan_${mydatetime}.pdf" --batch-print --source="ADF Duplex" --mode="Color" --depth="8" --resolution="600" --format=pdf -x 210 -y 297
 
