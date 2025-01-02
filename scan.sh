@@ -3,7 +3,7 @@
 # configuration
 
 output_directory="$HOME/Nextcloud/Scan"
-device_name="epsonds:libusb:004:010"                                     # find it via scanimage -L
+device_name="epsonds:libusb:004:006"                                     # find it via scanimage -L
 
 
 # variables
